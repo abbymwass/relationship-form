@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RELATIONSHIP CONTRACT</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<form>
+		<h1>Relationship Contract Form</h1>
+		<div id="partner_info">
+			<h3>Patner Information</h3>
+			<label>Partner 1 Name:</label>
+			<input type="text" name="partner1" required>
+			<label>Partner 2 Name:</label>
+			<input type="text" name="partner2" required>
+		</div>
+		<h3>Exclusivity</h3>
+		<input type="radio" name="open_relationship" required><label>Open Relationship</label><br>
+			<div id="open">
+				<input type="radio" name="protection" required><label>Required to use protection</label><br>
+				<input type="radio" name="no_protection" required><label>Not required to use protection</label><br>
+			</div>
+		
+		<input type="radio" name="exclusive_relationship" required><label>Exclusive Relationship</label><br>
+
+		<h3>Living Arrangements</h3>
+		<input type="radio" name="separately" required><label>Separately</label><br>
+		<input type="radio" name="together" required><label>Together</label><br>
+		<div id="expenses">
+			<h3>Expenses</h3>
+			<label>Boyfriend Expenses</label>
+			<input type="text" name="boyfriend_expenses" required>
+			<label>Girlfriend Expenses</label>
+			<input type="text" name="girlfriend_expenses" required>
+		</div>
+			<h3>Contact Information</h3>
+		<div id="contact_info">
+			<div>
+				<label>Firstname</label>
+				<input type="text" name="firstname" required>
+				<label>Phone Number</label>
+				<input type="text" name="phonenumber" required>
+			</div>
+			<div>
+				<label>Lastname</label>
+				<input type="text" name="lastname" required>
+				<label>Home Address</label>
+				<input type="text" name="homeaddress" required>
+			</div>
+		</div>
+		<div id="gender">
+			<label>Gender</label><br>
+			<input type="radio" name="male" required><label>Male</label><br>
+			<input type="radio" name="female" required><label>female</label><br>
+		</div>
+		<label>Email Address</label><br>
+		<input type="email" name="email" required><br>
+		<label>Love Languages</label><br>
+		<input type="checkbox" name="gifting"><label>Gifting</label><br>
+		<input type="checkbox" name="touching"><label>Physical Touch</label><br>
+		<input type="checkbox" name="quality_time"><label>Quality Time</label><br>
+		<h3>Realtionship Agreement</h3>
+		<div id="rship_agreement">
+			<label>Your Will:</label>
+			<input type="text" name="your_will" required>
+			<label>My Will:</label>
+			<input type="text" name="my_will" required>
+		</div>
+		<h3>Signatures:</h3>
+		<div id="signatures">
+			<div>
+				<label>Partner 1 Signture</label>
+				<input type="text" name="partner1_signature" required>
+				<label>Date</label>
+				<input type="date" name="partner1_date" required>
+			</div>
+			<div>
+				<label>Partner 2 Signture</label>
+				<input type="text" name="partner2_signature" required>
+				<label>Date</label>
+				<input type="date" name="partner2_date" required>
+			</div>
+		</div>
+		<button type="submit">Submit</button>
+	</form>
+
+</body>
+</html>
